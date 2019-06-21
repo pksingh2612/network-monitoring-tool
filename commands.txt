@@ -1,0 +1,20 @@
+tcpdump -n -r packet.pcap | grep "UDP" > u.pcap
+
+sudo tcpdump -nn -r packet.pcap | head
+
+
+sudo tcpdump -nn -r packet.pcap | cut -f 3 -d " " | head
+
+
+sudo tcpdump -nn -r packet.pcap | cut -f 3 -d " " | cut -f 1-4 -d "." | sort | uniq -c | sort -n
+
+sudo tcpdump -nn -r packet.pcap | cut -f 3  -d " " | cut -f 1-4 -d "." | uniq -c | sort -n
+
+
+tcpdump -nn -r traffic.pcap -p 'tcp or udp'| cut -f 5 -d " " | cut -f 5 -d "." | sort | uniq -c | sort -n
+
+
+tcpdump -nn -r traffic.pcap -p 'tcp or udp'| cut -f 3 -d " " | cut -f 5 -d "." | sort | uniq -c | sort -n
+
+
+grep "Reply" a.pcap | cut -f 6 -d " " | cut -f 1  -d ","
