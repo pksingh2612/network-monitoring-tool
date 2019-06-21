@@ -1,0 +1,52 @@
+18:45:18.872962 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:45:18.872982 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:45:38.513808 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:45:38.513829 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:45:58.226415 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:45:58.226435 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:46:19.930997 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:46:19.931012 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:46:43.367346 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:46:43.367365 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:47:03.577212 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:47:03.577233 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:47:30.453467 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:47:30.453487 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:47:53.662575 ARP, Request who-has 192.168.43.1 tell 192.168.43.126, length 28
+18:47:53.725765 ARP, Reply 192.168.43.1 is-at 80:ad:16:cb:e4:d0, length 28
+18:47:59.217118 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:47:59.217137 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:48:16.210573 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:48:16.210584 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:48:37.186060 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:48:37.186080 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:48:38.206580 ARP, Request who-has 192.168.43.1 tell 192.168.43.126, length 28
+18:48:38.212396 ARP, Reply 192.168.43.1 is-at 80:ad:16:cb:e4:d0, length 28
+18:48:51.224479 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:48:51.224499 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:48:51.224524 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:48:51.224549 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:49:07.092512 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:49:07.092533 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:49:27.102571 ARP, Request who-has 192.168.43.1 tell 192.168.43.126, length 28
+18:49:27.114030 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:49:27.114052 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:49:27.124071 ARP, Reply 192.168.43.1 is-at 80:ad:16:cb:e4:d0, length 28
+18:49:40.673635 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:49:40.673654 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:49:58.389348 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:49:58.389368 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:50:16.723173 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:50:16.723192 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:50:35.859332 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:50:35.859362 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:50:49.134634 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:50:49.134662 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:50:49.534429 ARP, Request who-has 192.168.43.1 tell 192.168.43.126, length 28
+18:50:49.537082 ARP, Reply 192.168.43.1 is-at 80:ad:16:cb:e4:d0, length 28
+18:51:02.452214 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:51:02.452235 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:51:21.330703 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:51:21.330725 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+18:51:41.388082 ARP, Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+18:51:41.388096 ARP, Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
