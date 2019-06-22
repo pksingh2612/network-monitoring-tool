@@ -1,8 +1,11 @@
+***** grep UDP packet from packet.pcap and store in u.pcap
 tcpdump -n -r packet.pcap | grep "UDP" > u.pcap
 
+**** For reading only 10 lines from beginning of packet.pcap use | head
 sudo tcpdump -nn -r packet.pcap | head
 
 
+***** -f for column number and -d for delimiter
 sudo tcpdump -nn -r packet.pcap | cut -f 3 -d " " | head
 
 
