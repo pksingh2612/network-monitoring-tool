@@ -1,5 +1,5 @@
 <?php
-   require('connect.php');
+   include('connect.php');
    session_start();
    if (isset($_POST['submit'])) {
       $userid = mysqli_real_escape_string($conn, $_POST['userid']);
@@ -18,16 +18,18 @@
          }else{
             while($row = mysqli_fetch_assoc($result)){
                if($row['password']==$password){
-                  echo "success"."<br>";
-		  echo "welcome ".$row['userid'];
+                  $_SESSION['status'] = "Active";
+                  $_SESSION['userid'] = $userid;
+                  header("Location: welcome.php");
+                  exit();
                }else{
-                  echo "try again";
+                  header("Location: index.html?msg=try again");
                }
             }
          }
       }
    } else{
-      header("Location:login.html?login=error");
+      header("Location: index.html?login=error");
       exit();
    }
 ?>
