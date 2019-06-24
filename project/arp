@@ -1,17 +1,4 @@
-16:38:22.873350 00:27:e3:b4:53:4f > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 15.15.151.15 (ff:ff:ff:ff:ff:ff) tell 15.15.151.15, length 46
-16:38:23.690353 58:00:e3:7e:0b:53 > d8:24:bd:91:5d:40, ethertype ARP (0x0806), length 42: Request who-has 172.31.1.250 tell 172.31.8.111, length 28
-16:38:23.692213 d8:24:bd:91:5d:40 > 58:00:e3:7e:0b:53, ethertype ARP (0x0806), length 60: Reply 172.31.1.250 is-at d8:24:bd:91:5d:40, length 46
-16:38:24.218728 00:27:e3:b4:53:4f > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Reply 172.31.2.243 is-at 58:8d:09:37:a9:11, length 46
-16:38:28.367845 00:27:e3:b4:53:4f > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 15.15.151.15 (ff:ff:ff:ff:ff:ff) tell 15.15.151.15, length 46
-16:38:31.501736 00:27:e3:b4:53:4f > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Reply 172.31.2.248 is-at c0:67:af:28:d6:04, length 46
-16:38:32.910274 58:00:e3:7e:0b:53 > 00:30:48:7b:a7:5a, ethertype ARP (0x0806), length 42: Request who-has 172.31.1.130 tell 172.31.8.111, length 28
-16:38:32.914435 00:30:48:7b:a7:5a > 58:00:e3:7e:0b:53, ethertype ARP (0x0806), length 60: Reply 172.31.1.130 is-at 00:30:48:7b:a7:5a, length 46
-16:38:33.858725 00:27:e3:b4:53:4f > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 15.15.151.15 (ff:ff:ff:ff:ff:ff) tell 15.15.151.15, length 46
-16:38:39.353335 00:27:e3:b4:53:4f > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 15.15.151.15 (ff:ff:ff:ff:ff:ff) tell 15.15.151.15, length 46
-16:38:44.032702 00:27:e3:b4:53:4f > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Reply 172.31.2.246 is-at c0:67:af:28:e5:e8, length 46
-16:38:44.845957 00:27:e3:b4:53:4f > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 15.15.151.15 (ff:ff:ff:ff:ff:ff) tell 15.15.151.15, length 46
-16:38:47.585050 00:27:e3:b4:53:4f > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Reply 172.31.2.138 is-at 64:00:f1:5e:73:89, length 46
-16:38:50.349509 00:27:e3:b4:53:4f > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 15.15.151.15 (ff:ff:ff:ff:ff:ff) tell 15.15.151.15, length 46
-16:38:54.035409 00:27:e3:b4:53:4f > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Reply 172.31.2.249 is-at c0:67:af:32:44:2f, length 46
-16:38:55.880126 00:27:e3:b4:53:4f > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 15.15.151.15 (ff:ff:ff:ff:ff:ff) tell 15.15.151.15, length 46
-16:38:58.175063 00:27:e3:b4:53:4f > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Reply 172.31.2.139 is-at ec:bd:1d:57:79:70, length 46
+02:02:12.003192 80:ad:16:cb:e4:d0 > 58:00:e3:7e:0b:53, ethertype ARP (0x0806), length 42: Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+02:02:12.034889 58:00:e3:7e:0b:53 > 80:ad:16:cb:e4:d0, ethertype ARP (0x0806), length 42: Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28
+02:02:27.256960 80:ad:16:cb:e4:d0 > 58:00:e3:7e:0b:53, ethertype ARP (0x0806), length 42: Request who-has 192.168.43.126 tell 192.168.43.1, length 28
+02:02:27.256984 58:00:e3:7e:0b:53 > 80:ad:16:cb:e4:d0, ethertype ARP (0x0806), length 42: Reply 192.168.43.126 is-at 58:00:e3:7e:0b:53, length 28

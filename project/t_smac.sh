@@ -1,1 +1,3 @@
-cut -f 3 -d " " tcp
+#!/bin/bash
+
+cut -f 2 -d " " tcp
