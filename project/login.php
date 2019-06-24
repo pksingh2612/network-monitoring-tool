@@ -9,6 +9,7 @@
          header("Location:index.html?detail=empty");
          exit();
       }else {
+         shell_exec("./packet_create.sh");
          $sql = "SELECT * FROM users WHERE userid = '$userid'";
          $result = mysqli_query($conn, $sql);
          $resultcount = mysqli_num_rows($result);
@@ -20,6 +21,7 @@
                if($row['password']==$password){
                   $_SESSION['status'] = "Active";
                   $_SESSION['userid'] = $userid;
+                  $var = shell_exec("./packet_create.sh");
                   header("Location: welcome.php");
                   exit();
                }else{

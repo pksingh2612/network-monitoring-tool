@@ -1,3 +1,3 @@
 #!/bin/bash
 
-grep "Request" a.pcap | cut -f 7 -d " " | cut -f 1  -d "," && grep "Reply" a.pcap | cut -f 6 -d " " | cut -f 1  -d ","
+grep "Request" arp | cut -f 14 -d " " | cut -f 1  -d "," && grep "Reply" arp | cut -f 13 -d " " | cut -f 1  -d ","

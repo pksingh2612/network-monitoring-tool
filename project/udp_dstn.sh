@@ -3,4 +3,4 @@
 #tcpdump -nn -r packet_udp.pcap | cut -f 1 -d " "
 
 
-cut -f 5 -d " " u.pcap
+cut -f 12 -d " " udp | cut -f 1 -d ":" | cut -d '.'  -f 1-4

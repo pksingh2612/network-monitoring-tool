@@ -37,6 +37,10 @@ if(isset($_POST['submit']))
             $var = shell_exec("./t_time.sh");
             echo $var;
             echo "<br><br>"."Successfully printed";
+        }elseif($choice == "Source MAC"){
+            $var = shell_exec("./t_smac.sh");
+            echo $var;
+            echo "<br><br>"."Successfully printed";
         }elseif($choice == "Ip version"){
             $var = shell_exec("./t_ipv.sh");
             echo $var;
@@ -46,7 +50,7 @@ if(isset($_POST['submit']))
             echo $var;
             echo "<br><br>"."Successfully printed";
         }elseif($choice == "Destination Ip"){
-            $var = shell_exec("./udp_dstn.sh");
+            $var = shell_exec("./t_dstn.sh");
             echo $var;
             echo "<br><br>"."Successfully printed";
         }

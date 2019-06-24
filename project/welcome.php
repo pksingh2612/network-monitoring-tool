@@ -36,9 +36,13 @@ body{
   <select required name="choice">
     <option value="">Select one</option>
     <option value="Timestamp">Timestamp</option>
-    <option value="Ip version">Ip version</option>
+    <option value="Source MAC">Source MAC</option>
+    <option value="Destination MAC">Destination MAC</option>
     <option value="Source Ip">Source Ip</option>
     <option value="Destination Ip">Destination Ip</option>
+    <option value="Source Port">Source Port</option>
+    <option value="Destination Port">Destination Port</option>
+    <option value="Packet Length">Packet Length</option>
   </select>
   <input type="submit" name="submit">
 </form>

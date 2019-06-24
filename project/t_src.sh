@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cut -f 3 -d " " t.pcap
+cut -f 10 -d " " tcp
